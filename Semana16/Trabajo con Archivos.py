@@ -8,7 +8,7 @@ file.write("Es importante practicar para aprender.\n")
 file.close()
 #Abrimos el archivo pero ahora en modo lectura
 #Lectura de Archivo de Texto
-#Lee el contenido del archivo línea por línea utilizando el método adecuado.
+#Lee el contenido del archivo línea por línea
 #Utilizamos readline() para leer el archivo línea por línea dentro de un bucle while.
 file=open("my_notes.txt", "r")
 line=file.readline()
